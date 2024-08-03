@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+    <div class ="col-4 d-flex justify-content-center align-items-center">
+        <img src="{% static 'images/MY_IMG.jpg' %}" alt="image" class = "about_image">
+        
+    </div>
+    <div class = "col-7 text-left text-light">
+        <h2> HELLO ! </h2>
+        <p class = "fs-5">
+            I am a passoniate django web Developer 
+        </p>
+       
+        <p class = "fs-5">
+            A Full-Stack developer is a professional responsible for working on both front-end and back-end development processes. They design, develop, and maintain fully-fledged and functioning platforms with databases or servers. These servers do not need other third-party applications to build an entire system from scratch.
+        </p>
+
+        
+
+
+    </div>
+    <div class = "row my-5 ">
+        <h2 class = "text-center" style = "color:#4fffb0">My Tech Stack</h2>
+        <div class = "d-flex justify-content-center align-items-center">
+            <img 
+                src="{% static "images/HTML5_logo_and_wordmark.svg.png" %}" 
+                width = "70" 
+                height = "70" 
+                alt="HTML Logo" 
+                class = "img-fluid"
+            />
+            <img 
+                src="{% static "images/CSS-Logo.png" %}" 
+                width = "110" 
+                height = "70" 
+                alt="CSS Logo" 
+                class = "img-fluid"
+            />
+            <img 
+                src="{% static "images/django-logo.png" %}" 
+                width = "100" 
+                height = "70" 
+                alt="Django Logo" 
+                class = "img-fluid"
+            />
+            <img 
+                src="{% static "images/python-logo.png" %}" 
+                width = "180" 
+                height = "70" 
+                alt="Python Logo" 
+                class = "img-fluid"
+            />
+        </div> 
+    </div>
+    
+</div>
+{% endblock content1 %}

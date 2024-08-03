@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content1 %}
+<div class = 'row my-2'>
+    {% for eachitem in certificate %}
+        <div class "jumbtron jumbtron-fluid mt-2" style="background-color : #002244;">
+            <h1 class="display4">{{eachitem.name_of_cert}} </h1>
+            <p class="lead">{{eachitem.Institute_name}}</p>
+            <p class="lead">{{eachitem.Issued}}</p>
+            <p class="lead">{{eachitem.completed}}</p>
+        </div>
+    {% endfor %}
+    
+    
+</div>
+<div>
+    <img src="{% static "images/cert-logo.png"%}" alt="cert-logo" style = "height : 300px; width : 500px; margin-left : 400px;">
+</div>
+
+  
+
+{% endblock content1 %}

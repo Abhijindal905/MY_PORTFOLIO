@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(20,0,30);
+    height: 100vh;
+}
+.navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color :#4fffb0;
+}
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.navbar-dark{
+    background-color: rgb(18,1,46 );
+}
+
+
+.circular-image-container{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border : 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-image{
+    width: 135%;
+    height: auto;
+    display: block;
+}
+
+.name{
+    color : #fff;
+}
+
+.title{
+    color : #4fffb0;
+}
+
+.social-links{
+    overflow: hidden;
+    border-radius: 50%;
+    border : 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about_image{
+    width: 300px;
+    height: 250px;
+    display: block;
+}
+
+
+.display4{
+    color: #eef3f8;
+    font-size: 50px;
+}
+
+.lead{
+    font-size: 18px;
+    color: #28a745;
+}
+
+.cert_img{
+    padding: 0px;
+    width : 300px;
+    height: 300px;
+}
+
+.display5{
+    font-size: 40px;
+    color: #28a745;
+}
+.project_logo{
+    margin-top: 20px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+i{
+    margin: 10px;
+    font-size: 25px;
+}
+
